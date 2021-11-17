@@ -12,7 +12,14 @@ D2 加入git init 遷移migration
 
 D3 加入git remote
 
+D4 - [x]
+加一個Dashboard
+製作admin會員table
+table list後面有修改刪除功能
 
+D5 - [x]
+加入按鈕
+按下後製作會員匯出成csv utf8檔
 
 
 
