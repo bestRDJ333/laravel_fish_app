@@ -43,5 +43,7 @@ D5 - [x]
 加入按鈕
 按下後製作會員匯出成csv utf8檔
 
+D6 - D8 沒做事
 
+D9 php artisan route:list --name=(resourceName|resourceControllerName)
 

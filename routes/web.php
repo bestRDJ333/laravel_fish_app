@@ -17,11 +17,17 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-
-
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
     return view('dashboard');
 })->name('dashboard');
 
 Route::resource('aboutme', aboutmeController::class);
 //aboutmeController
+
+Route::get('/register', function (){
+    return redirect('/');
+});
+
+Route::post('/register', function (){
+    return redirect('/');
+});
